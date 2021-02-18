@@ -1,11 +1,12 @@
 import './App.scss';
+import Game from "./components/Game";
 
 import React from 'react'
 
 const App = () => {
     return (
         <div>
-            <h1>Tic Tac Toe</h1>
+            <Game />
         </div>
     )
 }
