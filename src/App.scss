@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+
+.btn-list {
+    list-style: none;
+}
+
+.game-btn {
+    background: lightblue;
+    border-radius: 5px;
+    border: 3px solid darkblue;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+    &:focus {
+        outline: none;
+    }
+}
